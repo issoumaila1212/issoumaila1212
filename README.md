@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Issoumaila%20Lamine%20Fomba&fontSize=42&fontColor=00d4ff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20Engineer%20%7C%20Infrastructure&descAlignY=58&descColor=a0c4ff"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Issoumaila%20Lamine%20Fomba&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%7C%20Cloud%20Engineer%20%7C%20Infrastructure&descAlignY=58&descSize=18"/>
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
@@ -164,7 +164,7 @@ $ cat goals.txt
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=issoumaila1212&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" alt="Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=issoumaila1212&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="Trophies"/>
 </div>
 
 ---
