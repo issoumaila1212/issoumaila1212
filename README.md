@@ -1,5 +1,14 @@
 # 👋 Bonjour, moi c'est Issoumaila Lamine Fomba
+## 🛠 Technologies & Tools
 
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 🎯 En Formation Infrastructure • DevOps • Cloud  
 📍 Lyon, France  
 🚀 Passionné par l’automatisation, le cloud computing et les architectures systèmes & réseaux.
@@ -67,6 +76,8 @@ En formation avec une expérience professionnelle en développement applicatif, 
 ## 📊 GitHub Stats
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=issoumaila1212&show_icons=true&theme=tokyonight)
+## 🔥 Contribution Graph
+![GitHub Streak](https://streak-stats.demolab.com?user=issoumaila1212&theme=tokyonight)
 
 ---
 
@@ -78,3 +89,4 @@ En formation avec une expérience professionnelle en développement applicatif, 
 ---
 
 ⭐ Objectif 2026 : Devenir DevOps / Cloud Engineer avec forte expertise infrastructure.
+![snake gif](https://github.com/issoumaila1212/issoumaila1212/blob/output/github-contribution-grid-snake.svg)
