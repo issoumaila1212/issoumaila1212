@@ -1,0 +1,46 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # Se lance toutes les 12h
+  workflow_dispatch:          # Permet de le lancer manuellement
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+### 2. Active les permissions GitHub Actions
+
+Va dans ton repo → **Settings** → **Actions** → **General** → descends jusqu'à **Workflow permissions** → coche **Read and write permissions** → Sauvegarde.
+
+### 3. Lance le workflow manuellement
+
+Va dans l'onglet **Actions** de ton repo → clique sur **Generate Snake Animation** → bouton **Run workflow** → **Run workflow** (bouton vert).
+
+### 4. Vérifie que ça a fonctionné
+
+Après ~1 minute, une branche `output` doit apparaître dans ton repo avec les fichiers SVG dedans. Tu peux vérifier en allant sur :
+```
+https://github.com/issoumaila1212/issoumaila1212/blob/output/github-contribution-grid-snake-dark.svg
